@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>AIT Webserver Tool Kit</title>
+    <style>   
+        body 
+        {
+            background-color: black;
+            font-family: 'Courier New';
+            color: lightgray
+        }
+        h1 {font-size: 55px}
+        a:link, a:visited 
+        {
+            background-color: darkcyan;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block
+        }
+        a:hover, a:active {background-color: darkturquoise}
+        .dropbtn 
+        {
+            background-color: darkcyan;
+            color: lightgray;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+        .dropdown 
+        {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content 
+        {
+            display: none;
+            position: absolute;
+            background-color: darkturquoise;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a 
+        {
+            color: lightgray;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover{background-color: darkturquoise;}
+        .dropdown:hover .dropdown-content {display: block}
+        .dropdown:hover .dropbtn {background-color: darkturquoise}
+        
+
+
+
+    </style>
+</head>
+<body>
+    <img src="ait-logo.png" alt="AIT Logo" />
+    <br /><br />
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content" style="text-align:center">
+            <a href="WebServerTest.html">Front Page</a>
+            <a href="AdditionalPages/Calendar.html">Calendar</a>
+            <a href="AdditionalPages/Weather.html">Weather</a>
+            <a href="AdditionalPages/Tasks.html">Tasks</a>
+            <a href="AdditionalPages/News.html">News</a>
+            <a href="AdditionalPages/WorkUpdates.html">Work Updates</a>
+            <a href="AdditionalPages/MicroLearning.html">Micro-Learning</a>
+        </div>
+    </div><br />
+
+</body>
+</html>
