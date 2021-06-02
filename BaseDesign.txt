@@ -1,17 +1,17 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title>AIT Webserver Tool Kit</title>
-    <style>
-        body
+    <style>   
+        body 
         {
             background-color: black;
             font-family: 'Courier New';
             color: lightgray
         }
-        h1{font-size: 55px}
+        h1 {font-size: 55px}
         a:link, a:visited 
         {
             background-color: darkcyan;
@@ -21,7 +21,7 @@
             text-decoration: none;
             display: inline-block
         }
-        a:hover, a:active{background-color: darkturquoise}
+        a:hover, a:active {background-color: darkturquoise}
         .dropbtn 
         {
             background-color: darkcyan;
@@ -44,39 +44,43 @@
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
         }
-        .dropdown-content a
+        .dropdown-content a 
         {
             color: lightgray;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
         }
-        .dropdown-content a:hover {background-color: darkturquoise;}
-        .dropdown:hover .dropdown-content{display: block}
-        .dropdown:hover .dropbtn{background-color: darkturquoise}
+        .dropdown-content a:hover{background-color: darkturquoise;}
+        .dropdown:hover .dropdown-content {display: block}
+        .dropdown:hover .dropbtn {background-color: darkturquoise}
+        
+
+
+
     </style>
 </head>
 <body>
     <div id="Header Container" style="white-space:nowrap">
         <div id="Logo" style="display:inline">
-            <img src="../ait-logo.png" align="left" />
+            <img src="ait-logo.png" align="left"/>
         </div>
         <div id="Title" style="display:inline; white-space:nowrap">
             <h1 align="center" style="font-size:60px">Tool Kit</h1>
         </div>
     </div>
-
+    
     <br /><br />
     <div class="dropdown">
         <button class="dropbtn">Menu</button>
         <div class="dropdown-content" style="text-align:center">
-            <a href="../ToolKit.html">Front Page</a>
-            <a href="../AdditionalPages/Calendar.html">Calendar</a>
-            <a href="../AdditionalPages/Weather.html">Weather</a>
-            <a href="../AdditionalPages/Tasks.html">Tasks</a>
-            <a href="../AdditionalPages/News.html">News</a>
-            <a href="../AdditionalPages/WorkUpdates.html">Work Updates</a>
-            <a href="../AdditionalPages/MicroLearning.html">Micro-Learning</a>
+            <a href="ToolKit.html">Front Page</a>
+            <a href="AdditionalPages/Calendar.html">Calendar</a>
+            <a href="AdditionalPages/Weather.html">Weather</a>
+            <a href="AdditionalPages/Tasks.html">Tasks</a>
+            <a href="AdditionalPages/News.html">News</a>
+            <a href="AdditionalPages/WorkUpdates.html">Work Updates</a>
+            <a href="AdditionalPages/MicroLearning.html">Micro-Learning</a>
         </div>
     </div><br />
 
